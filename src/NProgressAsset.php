@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 
 class NProgressAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/nprogress';
+    public $sourcePath = '@npm/nprogress';
 
     public $publishOptions = [
         'only' => [
