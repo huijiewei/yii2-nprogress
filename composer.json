@@ -1,0 +1,36 @@
+{
+  "name": "huijiewei/yii2-nprogress",
+  "description": "Slim progress bars for Ajax'y applications. Inspired by Google, YouTube, and Medium.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-nprogress.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "nprogress",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/nprogress": "^0.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\nprogress\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
